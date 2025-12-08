@@ -4,17 +4,45 @@
     <meta charset="UTF-8">
     <title>Digitalt Danmark 💻🇩🇰</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-<section>
+
+<h1 class="title">
+    <EM>
+        Overskrift
+    </EM>
+</h1>
+
+<br>
+
+<section class="video">
 
     <!-- Inspiration fra https://www.w3schools.com/tags/att_video_autoplay.asp -->
-
-    <video controls autoplay muted width="420px" height="500px">
+<div class="divVideo">
+    <video id="video" controls autoplay muted style="width: 100%; max-width:350px; height:auto">
         <source src="JazminTraining.MP4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
+</div>
+
+    <br>
+    <div class="divButtons">
+        <button class="buttons" id="button1">
+            Klik videre
+        </button>
+
+        <button class="buttons" id="button2">
+            Klik videre
+        </button>
+
+        <button class="buttons" id="button3">
+            Klik videre
+        </button>
+    </div>
 </section>
+
+<section class="charts"></section>
 
 <script src="main.js"></script>
 </body>
